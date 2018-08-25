@@ -12,6 +12,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 import { FormsModule } from '@angular/forms'
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.co
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficaDonaComponent
+        GraficaDonaComponent,
+        AccoutSettingsComponent
          
     ],
     exports: [
