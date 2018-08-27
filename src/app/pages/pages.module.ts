@@ -13,6 +13,8 @@ import { FormsModule } from '@angular/forms'
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
 import {  AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import {  AccoutSettingsComponent } from './accout-settings/accout-settings.comp
         Graficas1Component,
         IncrementadorComponent,
         GraficaDonaComponent,
-        AccoutSettingsComponent
+        AccoutSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
          
     ],
     exports: [

@@ -19,14 +19,14 @@ import { CommonModule } from '@angular/common';
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+     
     ],
     exports: [
         NopagefoundComponent,
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+     
     ]
 })
 export class SharedModule { }
